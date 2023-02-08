@@ -1,0 +1,18 @@
+<svg width="149" height="88" viewBox="0 0 149 88" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="roca2" filter="url(#filter0_d_1_69)">
+<path id="Vector" d="M105.444 37.4452L134.602 25.0539C130.65 20.1958 125.61 15.8449 119.687 12.1784L64.6773 24.5367L107.851 6.22493C97.1784 2.00181 85.1678 -0.141096 73.001 0.00720655C60.8342 0.155509 48.9306 2.58989 38.4617 7.0707C27.9928 11.5515 19.3196 17.9243 13.2957 25.5619C7.27182 33.1994 4.10488 41.8385 4.10663 50.6287C4.10663 78.5806 35.4736 79.56 74.1833 79.56C112.893 79.56 144.26 78.5806 144.26 50.6287C144.251 43.5503 142.175 36.553 138.166 30.094L105.444 37.4452Z" fill="#6C63FF"/>
+<path id="Vector_2" opacity="0.1" d="M112.863 64.6267C109.759 62.3781 106.291 60.4086 102.534 58.7612C97.2325 56.2191 91.7634 53.622 85.5175 52.7636C80.0332 52.0043 74.3814 52.6426 68.76 52.4225C59.0603 51.993 49.9302 48.968 43.1516 43.9379C39.1755 40.9667 36.0373 37.3351 31.2538 35.0351C26.0894 32.5921 19.5388 32.0639 13.4147 32.6691C11.6387 32.8574 9.87886 33.1183 8.1437 33.4505C5.39437 38.9597 3.99226 44.7724 4.00003 50.6287C4.00003 78.5806 35.367 79.56 74.0767 79.56C92.8603 79.56 109.907 79.3289 122.491 75.8955L120.388 73.0562C118.383 70.0279 115.854 67.1954 112.863 64.6267Z" fill="black"/>
+</g>
+<defs>
+<filter id="filter0_d_1_69" x="0" y="0" width="148.26" height="87.56" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_69"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_69" result="shape"/>
+</filter>
+</defs>
+</svg>

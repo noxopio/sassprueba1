@@ -1,0 +1,154 @@
+.nav {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+.nav__container {
+  width: 90%;
+  margin: 0 auto;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nav__item {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+@media (min-width: 764px) {
+  .nav__cotainer {
+    justify-content: flex-end;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.menu {
+  position: fixed;
+  bottom: 1rem;
+}
+.menu__boton {
+  visibility: hidden;
+}
+.menu__item {
+  font-size: 50px;
+  color: white;
+  display: inline;
+  text-decoration: none;
+  width: 5rem;
+  height: 5rem;
+  line-height: 2rem;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0 0 8px rgb(255, 255, 255);
+  margin: 30px;
+}
+.menu__item:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(3, 3, 3);
+}
+.menu__btn-mas {
+  color: white;
+  display: block;
+  text-decoration: none;
+  width: 4rem;
+  height: 4rem;
+  line-height: 4rem;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0 0 8px rgb(255, 255, 255);
+  margin: 20px;
+}
+.menu__btn-mas:active {
+  color: red;
+  box-shadow: 0 0 60px rgb(255, 255, 255);
+}
+.menu__btn-mas:hover {
+  transition: all 1000ms ease;
+  box-shadow: 0 0 50px rgb(234, 0, 255);
+}
+.menu__redes {
+  margin: 10px;
+  visibility: hidden;
+}
+#btn-mas:checked ~ .menu__redes {
+  opacity: 1;
+  visibility: visible;
+}
+
+.circle {
+  background-color: white;
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  animation-duration: 1000ms;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.circle-1 {
+  animation-name: animacion1;
+}
+@keyframes animacion1 {
+  100% {
+    transform: translate(50%);
+  }
+}
+
+.circle-2 {
+  animation-name: animacion2;
+  transform: scale(0.5);
+  background-color: purple;
+  animation-direction: alternate-reverse;
+}
+@keyframes animacion2 {
+  100% {
+    transform: translate(100%);
+  }
+}
+
+.circle-3 {
+  animation-name: animacion3;
+}
+@keyframes animacion3 {
+  100% {
+    transform: translate(150%);
+  }
+}
+
+.circle-4 {
+  animation-name: animacion4;
+}
+@keyframes animacion4 {
+  100% {
+    transform: translate(200%);
+  }
+}
+
+.circle-5 {
+  animation-name: animacion5;
+  background-color: blue;
+  animation-direction: alternate-reverse;
+}
+@keyframes animacion5 {
+  100% {
+    transform: translate(250%);
+  }
+}
+
+#pantalla_2:hover {
+  fill: #8a2be2;
+}
+
+/*# sourceMappingURL=style.css.map */

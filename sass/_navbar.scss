@@ -1,0 +1,27 @@
+
+.nav {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+
+    &__container{
+        width: 90%;
+        margin: 0 auto;
+      height: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+
+    }
+ 
+    &__item{
+        color:rgb(0, 0, 0);
+        text-decoration: none;
+        border-bottom:  1px solid transparent;        
+    }
+    @media (min-width:764px) {
+        &__cotainer {
+            justify-content: flex-end;
+        }
+        
+      }
+}

@@ -1,0 +1,73 @@
+
+
+
+.menu{
+   
+ position: fixed;
+    bottom: 1rem;
+    
+    &__boton{
+       visibility: hidden;
+    }
+    &__item {
+        font-size: 50px;
+        color: white;
+        display:inline;
+        text-decoration: none;
+        width: 5rem;
+        height: 5rem;
+        line-height:2rem;
+        text-align: center;
+        border-radius: 50%;
+        box-shadow: 0 0 8px rgba(255, 255, 255.04);
+        margin:30px;
+    
+    
+        &:hover{
+         
+            background-color: rgb(255, 255, 255);
+            color: rgb(3, 3, 3);
+            
+        }
+    
+        
+    }
+   
+    &__btn-mas{  
+     
+        color: white;
+        display: block;
+        text-decoration: none;
+        width:4rem;
+        height:4rem;
+        line-height:4rem;
+        text-align: center;
+        border-radius: 50%;
+        box-shadow: 0 0 8px rgba(255, 255, 255.04);
+      
+        margin:20px;
+        &:active{
+            color: red;
+            box-shadow: 0 0 60px rgb(255, 255, 255);
+        }
+       
+        &:hover{
+         
+            transition: all 1000ms ease;   
+           
+            box-shadow: 0 0 50px rgb(234, 0, 255);
+        }
+    }
+    &__redes{
+        margin:10px;
+        visibility: hidden;
+    }
+  
+   #btn-mas:checked~ &__redes{
+          opacity: 1;
+   
+        visibility: visible;
+       }    
+
+}
+
